@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CP Insert Contact</string>
+    <string name="contacts_list">Contacts list</string>
+    <string name="et_name">Name:</string>
+    <string name="et_mb">Mobile:</string>
+    <string name="add_btn">Add Contact</string>
+    <string name="tutorial_txt">Click + to Add Contact</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/et_name"
+            android:background="@color/colorPrimary"
+            android:textSize="@dimen/text_dim"/>
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:background="@color/colorET"
+            android:textSize="@dimen/text_dim">
+            <requestFocus/>
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/et_mb"
+            android:background="@color/colorPrimary"
+            android:textSize="@dimen/text_dim"/>
+        <EditText
+            android:id="@+id/et_mobile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:inputType="number"
+            android:background="@color/colorET"
+            android:maxLength="10"
+            android:textSize="@dimen/text_dim"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_add_contact"
+        android:layout_marginTop="@dimen/text_dim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/add_btn"
+        android:paddingRight="@dimen/margin_dim"
+        android:paddingLeft="@dimen/margin_dim"
+        android:background="@color/colorPrimary"/>
+
+</LinearLayout>
